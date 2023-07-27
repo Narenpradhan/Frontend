@@ -72,8 +72,15 @@ font-family: 'Karla', sans-serif; */
     align-items: center;
 }
 .passfield{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 211px;
     height: 39px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #4ADF86;
     background-color: #273549;
     border-radius: 6px;
 }
