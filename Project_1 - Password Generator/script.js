@@ -8,7 +8,7 @@ let field2 = document.getElementById("passfield-2")
 function generate() {
     let passwd1 = ""
     let passwd2 = ""
-    for (let i = 0; i < 12; i++){
+    for (let i = 0; i < 15; i++){
         passwd1 += characters[Math.floor(Math.random()*characters.length)]
     }
     for (let i = 0; i < 12; i++){
